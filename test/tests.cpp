@@ -6,7 +6,6 @@
 
 
 TEST(PrimeFunctionsTest, CheckPrime) {
-    
     EXPECT_TRUE(checkPrime(2));
     EXPECT_TRUE(checkPrime(3));
     EXPECT_TRUE(checkPrime(5));
